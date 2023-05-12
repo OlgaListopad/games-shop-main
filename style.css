@@ -187,3 +187,60 @@ footer {
     justify-content: space-between;
     margin: 20px 0;
 }
+
+.btn-buy {
+    color: var( --dark);
+    background-color: var(--yellow);
+    border-radius: 20px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 265px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn-buy:hover {
+    color: #FFF;
+    background-color: var(--yellow);
+    border-radius: 20px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 265px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.user-profile {
+    padding-top: 18px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cart {
+    margin-bottom: 10px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.circle {
+    position: relative;
+    top: 10px;
+    left: 35px;
+    color: #ffffff;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    background: #ff0000;
+    border-radius: 50%;
+}

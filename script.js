@@ -29,6 +29,7 @@ const items = [{
         price: 9.73,
         img: "./img/4.jpeg",
         rating: 3.7,
+
     },
     {
         title: "Неудержимые единорожки",
@@ -37,6 +38,7 @@ const items = [{
         price: 39,
         img: "./img/5.jpeg",
         rating: 4.3,
+
     },
     {
         title: "Мемов бокс",
@@ -45,6 +47,7 @@ const items = [{
         price: 79,
         img: "./img/6.jpeg",
         rating: 3.8,
+
     },
     {
         title: "101 игра для всей семьи",
@@ -53,6 +56,7 @@ const items = [{
         price: 300,
         img: "./img/7.jpeg",
         rating: 4.9,
+
     },
     {
         title: "Настольная игра «Вокруг света»",
@@ -85,6 +89,7 @@ const items = [{
         price: 52.96,
         img: "./img/11.jpeg",
         rating: 4.1,
+
     },
     {
         title: "Сочетай фигуры",
@@ -93,6 +98,7 @@ const items = [{
         price: 30,
         img: "./img/12.jpeg",
         rating: 3.8,
+
     },
 ];
 
@@ -127,7 +133,9 @@ function prepareShopItem(shopItem) {
         tagsHolder.append(element);
     });
 
+
     return item;
+
 }
 
 

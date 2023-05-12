@@ -7,12 +7,14 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🎲</text></svg>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Магазин настольных игр</title>
 </head>
 
 <body>
+
+
     <header>
         <nav>
             <ul class="container nav">
@@ -28,50 +30,71 @@
                 <li>
                     <div class="site-search">
                         <input type="search" id="search-input">
-                        <button type="button" id="search-btn" class="fa fa-search"></i> 
-          </div>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main class="container">
-    <div class="filters">
-      <div class="filters-sort">
-        <label for="sort">Сортировка:</label>
-        <select name="sort" id="sort">
+                        <button type="button" id="search-btn" class="fa fa-search"></button>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="user-profile"><i class="fa-solid fa-user"></i></div>
+                        <div>Профиль</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="circle">3</div>
+                        <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div>Корзина</div>
+                    </div>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="filters">
+            <div class="filters-sort">
+                <label for="sort">Сортировка:</label>
+                <select name="sort" id="sort">
           <option selected value="alphabet">По алфавиту</option>
           <option value="expensive">Сначала дорогие</option>
           <option value="cheap">Сначала дешевые</option>
           <option value="rating">Рейтинг</option>
         </select>
-      </div>
-    </div>
-    <section id="shop-items">
-    </section>
-    <p id="nothing-found">Ничего не найдено</p>
-  </main>
-  <footer id="contacts" class="container">
-    <a href="#" class="logo">Магазин настольных игр</a>
-    <p>Свяжитесь с нами</p>
-    <p>+375 29 999 99 99</p>
-    <p>games@yandex.ru</p>
-    <p>г. Минск, улица Светлая 75а</p>
-  </footer>
-  <template id="item-template">
+            </div>
+        </div>
+        <section id="shop-items">
+
+
+
+        </section>
+        <p id="nothing-found">Ничего не найдено</p>
+    </main>
+    <footer id="contacts" class="container">
+        <a href="#" class="logo">Магазин настольных игр</a>
+        <p>Свяжитесь с нами</p>
+        <p>+375 29 999 99 99</p>
+        <p>games@yandex.ru</p>
+        <p>г. Минск, улица Светлая 75а</p>
+    </footer>
+    <template id="item-template">
     <div class="shop-item">
       <img src="">
       <div class="content">
         <div class="tags"></div>
         <h1></h1>
-        <p></p>
+        <p></p> 
+        
       </div>
       <div class="footer">
         <span class="price"></span>
         <div class="rating"></div>
-      </div>
+      </div>  
+       
+      <button class="btn-buy"><i class="fa-solid fa-cart-shopping"></i>&nbsp&nbspВ корзину</button>
     </div>
     </div>
   </template>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
