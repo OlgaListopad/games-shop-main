@@ -188,7 +188,7 @@ footer {
     margin: 20px 0;
 }
 
-.btn-buy {
+.card__add {
     color: var( --dark);
     background-color: var(--yellow);
     border-radius: 20px;
@@ -204,9 +204,9 @@ footer {
     margin-top: 20px;
 }
 
-.btn-buy:hover {
-    color: #FFF;
-    background-color: var(--yellow);
+.card__add:hover {
+    color: var( --dark);
+    background-color: #ffe77c;
     border-radius: 20px;
     border: none;
     padding: 15px 32px;
@@ -233,7 +233,7 @@ footer {
     text-align: center;
 }
 
-.circle {
+.cart__num {
     position: relative;
     top: 10px;
     left: 35px;

@@ -221,3 +221,18 @@ function applySearch() {
 
 searchButton.addEventListener("click", applySearch);
 searchInput.addEventListener("search", applySearch);
+
+
+
+
+const cartNum = document.querySelector("#cart_num");
+const cardAddArr = Array.from(document.querySelectorAll(".card__add"));
+for (let elem of cardAddArr) {
+
+    elem.addEventListener('click', function() {
+        let count = Number(cartNum.textContent);
+        count = count + 1;
+        cartNum.textContent = String(count);
+    });
+
+}
